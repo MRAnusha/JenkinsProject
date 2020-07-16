@@ -1,1 +1,2 @@
 Javaproject1 SCM code commit trigger
+sample editig of file to check jenkin triggering
