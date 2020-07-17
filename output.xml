@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20200717 19:09:24.460" rpa="false">
+<suite id="s1" name="Web Test suite" source="E:\Jenkins\RobotProjectJenkins\Test-auto\KeywordTestcases\Web\Web_Test_suite.robot">
+<test id="s1-t1" name="TestCase2">
+<kw name="Launch Browser and Navigate URL" library="common">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${FACEBOKK_URL}</arg>
+<arg>${BROWSER_NAME}</arg>
+</arguments>
+<msg timestamp="20200717 19:09:25.494" level="INFO">Opening browser 'chrome' to base url 'https://www.facebook.com/'.</msg>
+<status status="PASS" starttime="20200717 19:09:25.494" endtime="20200717 19:09:33.674"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200717 19:09:33.675" endtime="20200717 19:09:35.897"></status>
+</kw>
+<status status="PASS" starttime="20200717 19:09:25.494" endtime="20200717 19:09:35.897"></status>
+</kw>
+<kw name="Comment" library="BuiltIn">
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<arguments>
+<arg>SeleniumLibrary.Wait Until Element Is Visible</arg>
+<arg>u_0_2</arg>
+<arg>${MEDIUM_WAIT}</arg>
+</arguments>
+<status status="PASS" starttime="20200717 19:09:35.897" endtime="20200717 19:09:35.898"></status>
+</kw>
+<kw name="Comment" library="BuiltIn">
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<arguments>
+<arg>SeleniumLibrary.Click Element</arg>
+<arg>u_0_2</arg>
+</arguments>
+<status status="PASS" starttime="20200717 19:09:35.898" endtime="20200717 19:09:35.898"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>u_0_m</arg>
+<arg>${MEDIUM_WAIT}</arg>
+</arguments>
+<status status="PASS" starttime="20200717 19:09:35.899" endtime="20200717 19:09:35.935"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>u_0_m</arg>
+<arg>Sample</arg>
+</arguments>
+<msg timestamp="20200717 19:09:35.937" level="INFO">Typing text 'Sample' into text field 'u_0_m'.</msg>
+<status status="PASS" starttime="20200717 19:09:35.936" endtime="20200717 19:09:36.075"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>u_0_o</arg>
+<arg>M</arg>
+</arguments>
+<msg timestamp="20200717 19:09:36.076" level="INFO">Typing text 'M' into text field 'u_0_o'.</msg>
+<status status="PASS" starttime="20200717 19:09:36.076" endtime="20200717 19:09:36.198"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>u_0_r</arg>
+<arg>samplem@gmail.com</arg>
+</arguments>
+<msg timestamp="20200717 19:09:36.198" level="INFO">Typing text 'samplem@gmail.com' into text field 'u_0_r'.</msg>
+<status status="PASS" starttime="20200717 19:09:36.198" endtime="20200717 19:09:36.489"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>u_0_u</arg>
+<arg>samplem@gmail.com</arg>
+</arguments>
+<msg timestamp="20200717 19:09:36.490" level="INFO">Typing text 'samplem@gmail.com' into text field 'u_0_u'.</msg>
+<status status="PASS" starttime="20200717 19:09:36.490" endtime="20200717 19:09:36.816"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>password_step_input</arg>
+<arg>aabbccdd123$123</arg>
+</arguments>
+<msg timestamp="20200717 19:09:36.818" level="INFO">Typing text 'aabbccdd123$123' into text field 'password_step_input'.</msg>
+<status status="PASS" starttime="20200717 19:09:36.818" endtime="20200717 19:09:37.076"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//select[@id='day']</arg>
+</arguments>
+<msg timestamp="20200717 19:09:37.077" level="INFO">Clicking element '//select[@id='day']'.</msg>
+<status status="PASS" starttime="20200717 19:09:37.077" endtime="20200717 19:09:37.222"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//select[@id='day']//option[@value='14']</arg>
+</arguments>
+<msg timestamp="20200717 19:09:37.223" level="INFO">Clicking element '//select[@id='day']//option[@value='14']'.</msg>
+<status status="PASS" starttime="20200717 19:09:37.223" endtime="20200717 19:09:37.303"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//select[@id='month']</arg>
+</arguments>
+<msg timestamp="20200717 19:09:37.305" level="INFO">Clicking element '//select[@id='month']'.</msg>
+<status status="PASS" starttime="20200717 19:09:37.304" endtime="20200717 19:09:37.459"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//select[@id='month']/option[@value='1']</arg>
+</arguments>
+<msg timestamp="20200717 19:09:37.460" level="INFO">Clicking element '//select[@id='month']/option[@value='1']'.</msg>
+<status status="PASS" starttime="20200717 19:09:37.460" endtime="20200717 19:09:37.525"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//select[@id='year']</arg>
+</arguments>
+<msg timestamp="20200717 19:09:37.527" level="INFO">Clicking element '//select[@id='year']'.</msg>
+<status status="PASS" starttime="20200717 19:09:37.526" endtime="20200717 19:09:37.650"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//select[@id='year']/option[@value='1996']</arg>
+</arguments>
+<msg timestamp="20200717 19:09:37.653" level="INFO">Clicking element '//select[@id='year']/option[@value='1996']'.</msg>
+<status status="PASS" starttime="20200717 19:09:37.652" endtime="20200717 19:09:37.718"></status>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>//a[text()='Create a Page']</arg>
+</arguments>
+<status status="PASS" starttime="20200717 19:09:37.719" endtime="20200717 19:09:38.013"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>u_0_7</arg>
+</arguments>
+<msg timestamp="20200717 19:09:38.014" level="INFO">Clicking element 'u_0_7'.</msg>
+<status status="PASS" starttime="20200717 19:09:38.014" endtime="20200717 19:09:38.113"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>u_0_12</arg>
+<arg>${MEDIUM_WAIT}</arg>
+</arguments>
+<status status="PASS" starttime="20200717 19:09:38.114" endtime="20200717 19:09:38.158"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>u_0_12</arg>
+</arguments>
+<msg timestamp="20200717 19:09:38.159" level="INFO">Clicking element 'u_0_12'.</msg>
+<status status="PASS" starttime="20200717 19:09:38.159" endtime="20200717 19:09:38.224"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>//button[@name='websubmit']</arg>
+<arg>${MEDIUM_WAIT}</arg>
+</arguments>
+<status status="PASS" starttime="20200717 19:09:38.225" endtime="20200717 19:09:38.248"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//button[@name='websubmit']</arg>
+</arguments>
+<msg timestamp="20200717 19:09:38.249" level="INFO">Clicking element '//button[@name='websubmit']'.</msg>
+<status status="PASS" starttime="20200717 19:09:38.249" endtime="20200717 19:09:38.326"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>//a[text()='Log Out']</arg>
+<arg>${MEDIUM_WAIT}</arg>
+</arguments>
+<status status="PASS" starttime="20200717 19:09:38.327" endtime="20200717 19:09:44.047"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//a[text()='Log Out']</arg>
+</arguments>
+<msg timestamp="20200717 19:09:44.048" level="INFO">Clicking element '//a[text()='Log Out']'.</msg>
+<status status="PASS" starttime="20200717 19:09:44.048" endtime="20200717 19:09:45.994"></status>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200717 19:09:45.995" endtime="20200717 19:09:48.167"></status>
+</kw>
+<status status="PASS" starttime="20200717 19:09:25.493" endtime="20200717 19:09:48.169" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200717 19:09:24.462" endtime="20200717 19:09:48.173"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Web Test suite">Web Test suite</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20200717 19:09:25.379" level="WARN">Imported resource file 'E:\Jenkins\RobotProjectJenkins\Test-auto\ObjectRepository\Web\buttons.robot' is empty.</msg>
+<msg timestamp="20200717 19:09:25.381" level="WARN">Imported resource file 'E:\Jenkins\RobotProjectJenkins\Test-auto\ObjectRepository\Web\images.robot' is empty.</msg>
+<msg timestamp="20200717 19:09:25.383" level="WARN">Imported resource file 'E:\Jenkins\RobotProjectJenkins\Test-auto\ObjectRepository\Web\links.robot' is empty.</msg>
+<msg timestamp="20200717 19:09:25.385" level="WARN">Imported resource file 'E:\Jenkins\RobotProjectJenkins\Test-auto\ObjectRepository\Web\textboxes.robot' is empty.</msg>
+<msg timestamp="20200717 19:09:25.388" level="WARN">Imported resource file 'E:\Jenkins\RobotProjectJenkins\Test-auto\ObjectRepository\Web\label.robot' is empty.</msg>
+<msg timestamp="20200717 19:09:25.391" level="WARN">Imported resource file 'E:\Jenkins\RobotProjectJenkins\Test-auto\ObjectRepository\Web\radiobuttons.robot' is empty.</msg>
+<msg timestamp="20200717 19:09:25.393" level="WARN">Imported resource file 'E:\Jenkins\RobotProjectJenkins\Test-auto\ObjectRepository\Web\dropdowns.robot' is empty.</msg>
+<msg timestamp="20200717 19:09:25.397" level="WARN">Imported resource file 'E:\Jenkins\RobotProjectJenkins\Test-auto\ObjectRepository\Mobile\Android\images.robot' is empty.</msg>
+<msg timestamp="20200717 19:09:25.399" level="WARN">Imported resource file 'E:\Jenkins\RobotProjectJenkins\Test-auto\ObjectRepository\Mobile\Android\label.robot' is empty.</msg>
+<msg timestamp="20200717 19:09:25.400" level="WARN">Imported resource file 'E:\Jenkins\RobotProjectJenkins\Test-auto\ObjectRepository\Mobile\Android\links.robot' is empty.</msg>
+<msg timestamp="20200717 19:09:25.407" level="WARN">Imported resource file 'E:\Jenkins\RobotProjectJenkins\Test-auto\ObjectRepository\Mobile\Android\textboxes.robot' is empty.</msg>
+<msg timestamp="20200717 19:09:25.415" level="WARN">Imported resource file 'E:\Jenkins\RobotProjectJenkins\Test-auto\ObjectRepository\Web\spinner.robot' is empty.</msg>
+</errors>
+</robot>
