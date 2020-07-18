@@ -32,3 +32,5 @@ Resource          ../Keywords/API/api.robot
 Resource          ../Keywords/Web/web.robot
 Library           SikuliLibrary    mode=NEW
 Library           ../Library/CustomLibrary.py
+Library           RequestsLibrary
+Library           JSONLibrary
