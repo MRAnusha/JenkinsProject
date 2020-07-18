@@ -15,6 +15,7 @@ Get Id from Public Images
     ${response_body}    Set Variable    ${resp1.json()}
 
 Get Sub-Id from Uploaded images
+    Comment    Get API Response
     ${get_All_Imag_ID}    API Response
     ${headers}    Create Directory    x-api-key='DEMO-API-KEY'
     ${resp1}    Get Request    ${SESSION}    /v1/images    headers=${headers}
