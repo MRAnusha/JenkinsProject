@@ -13,7 +13,6 @@ TC1_Create Face Book Account
 
 TestCase2
     Launch Browser and Navigate URL
-    Comment    SeleniumLibrary.Wait Until Element Is Visible    u_0_2    ${MEDIUM_WAIT}
     Comment    SeleniumLibrary.Click Element    u_0_2
     SeleniumLibrary.Wait Until Element Is Visible    u_0_m    ${MEDIUM_WAIT}
     SeleniumLibrary.Input Text    u_0_m    Sample
