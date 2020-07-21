@@ -13,29 +13,4 @@ TC1_Create Face Book Account
 
 TestCase2
     Launch Browser and Navigate URL
-<<<<<<< HEAD
     Creating Face Book Account
-=======
-    Comment    SeleniumLibrary.Click Element    u_0_2
-    SeleniumLibrary.Wait Until Element Is Visible    u_0_m    ${MEDIUM_WAIT}
-    SeleniumLibrary.Input Text    u_0_m    Sample
-    SeleniumLibrary.Input Text    u_0_o    M
-    SeleniumLibrary.Input Text    u_0_r    samplem@gmail.com
-    SeleniumLibrary.Input Text    u_0_u    samplem@gmail.com
-    SeleniumLibrary.Input Text    password_step_input    aabbccdd123$123
-    SeleniumLibrary.Click Element    //select[@id='day']
-    SeleniumLibrary.Click Element    //select[@id='day']//option[@value='14']
-    SeleniumLibrary.Click Element    //select[@id='month']
-    SeleniumLibrary.Click Element    //select[@id='month']/option[@value='1']
-    SeleniumLibrary.Click Element    //select[@id='year']
-    SeleniumLibrary.Click Element    //select[@id='year']/option[@value='1996']
-    SeleniumLibrary.Scroll Element Into View    //a[text()='Create a Page']
-    SeleniumLibrary.Click Element    u_0_7
-    SeleniumLibrary.Wait Until Element Is Visible    u_0_12    ${MEDIUM_WAIT}
-    SeleniumLibrary.Click Element    u_0_12
-    SeleniumLibrary.Wait Until Element Is Visible    //button[@name='websubmit']    ${MEDIUM_WAIT}
-    SeleniumLibrary.Click Element    //button[@name='websubmit']
-    SeleniumLibrary.Wait Until Element Is Visible    //a[text()='Log Out']    ${MEDIUM_WAIT}
-    SeleniumLibrary.Click Element    //a[text()='Log Out']
-    Close All Browsers
->>>>>>> 7e9c223ce9a575c1c5e15c1066db01b4039c700d
